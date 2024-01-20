@@ -1,0 +1,577 @@
+@font-face {
+  font-family: "Gotham Pro Light";
+
+  src: url("../fonts/GothamPro-Light.woff") format("woff");
+
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Gotham Pro";
+
+  src: url("../fonts/GothamPro.woff") format("woff");
+
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Gotham Pro Medium";
+
+  src: url("../fonts/GothamPro-Medium.woff") format("woff");
+
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Anodina-ExtraBold";
+
+  src: url("../fonts/Anodina-ExtraBold.woff") format("woff");
+
+  font-weight: normal;
+  font-style: normal;
+}
+*,
+*:after,
+*:before {
+  box-sizing: border-box;
+}
+body {
+  background-color: 	#008B8B;
+  color: #fff;
+  font-family: "Gotham Pro", sans-serif;
+  margin: 0;
+}
+.header {
+  padding-top: 0px;
+  border-bottom: 1px solid #4c4c4c;
+  background-color: #349ba89d
+}
+
+.header-description {
+  font-family: "Gotham Pro Medium";
+  letter-spacing: 0.12px;
+  font-size: 40px;
+  color: #1a1a1a;
+  font-style: bold;
+  line-height: normal;
+ text-align: center;
+
+  
+ 
+}
+.text-color-red {
+  color: #ff3469;
+  font-family: "Gotham Pro Medium";
+}
+.header-phone {
+ color: #1a1a1a;
+  text-decoration: none;
+  font-size: 20px;
+  text-align: right;
+  font-weight: 500;
+  display: block;
+}
+.header-info {
+  font-size: 12px;
+  font-weight: 400;
+  margin-top: 7px;
+  display: block;
+  text-align: right;
+  color: #1a1a1a;
+  text-decoration: none;
+}
+
+.callback {
+  color: #ff3469;
+  text-align: right;
+  display: block;
+  margin-top: 16px;
+  font-size: 16px;
+}
+
+.hero {
+  text-align: center;
+  padding-top: 100px;
+  padding-bottom: 77px;
+  border-bottom: 1px solid #4c4c4c;
+  background-color: 		#008080;
+}
+.hero-title {
+  tab-size: 34px;
+  margin-bottom: 34px;
+  text-transform: uppercase;
+  line-height: normal;
+  letter-spacing: 0.34px;
+  font-family: "Gotham Pro Medium";
+  color: #1a1a1a;
+}
+
+.hero-description {
+  font-size: 18px;
+  font-family: "Gotham Pro";
+  
+  letter-spacing: 0.18px;
+  line-height: 1.4;
+  color: #292929;
+}
+
+.flowers-slider {
+  width: 100%;
+  margin-bottom: 83px;
+  margin-top: 83px;
+}
+:root {
+  --swiper-navigation-size: 19px;
+}
+.hero-cta {
+  display: block;
+  font-size: 18px;
+  text-transform: uppercase;
+color: #1a1a1a;
+  margin-bottom: 36px;
+  font-family: "Gotham Pro Medium";
+}
+.hero-cta-tel{
+  text-transform: uppercase;
+  text-decoration: none;
+ color: #4c4c4c;
+  border: 1px solid #4c4c4c;
+  padding: 5px;
+
+}
+.button {
+  display: inline-block;
+  font-size: 18px;
+  font-family: "Gotham Pro Light";
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #fff;
+  background-color:#4c4c4c;
+  padding-top: 30px;
+  padding-bottom: 26px;
+  padding-left: 65px;
+  padding-right: 65px;
+  margin-top: 36px;
+  cursor: pointer;
+}
+.a-1{
+  text-decoration: none;
+}
+
+.button-1 {
+  display: inline-block;
+  font-size: 18px;
+  font-family: "Gotham Pro Light";
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #fff;
+  background-color:#1a1a1a;
+  padding-top: 30px;
+  padding-bottom: 26px;
+  padding-left: 65px;
+  padding-right: 65px;
+  margin-top: 36px;
+  
+  cursor: pointer;
+}
+
+.reviews {
+  padding-top: 100px;
+  padding-bottom: 50px;
+}
+
+.reviews-slider {
+  margin-top: 98px;
+}
+.review-slide {
+  padding-left: 60px;
+  padding-right: 60px;
+}
+.review-image {
+  width: 220px;
+  height: 220px;
+  flex-shrink: 0;
+  border-radius: 50%;
+  overflow: hidden;
+  font-style: 20px;
+  font-family: "Gotham Pro Light";
+  position: relative;
+  margin-right: 50px;
+}
+.review-image:before {
+  content: "";
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  position: absolute;
+}
+.review-image > * {
+  position: relative;
+}
+
+.review-image-1 {
+  background: #000 url("../img/reviews/review-1.jpg");
+}
+.review-image-2 {
+  background: #000 url("../img/reviews/review-2.jpg");
+}
+
+.review-name {
+  margin-bottom: 7px;
+}
+.review-text {
+  font-style: 18px;
+  letter-spacing: 0.18px;
+  line-height: 1.4;
+}
+.review-link {
+  color: #f24841;
+}
+.section-title {
+  font-style: 30px;
+  text-transform: uppercase;
+  text-align: center;
+  letter-spacing: 0.3px;
+}
+
+.advantages {
+  text-align: center;
+  padding-bottom: 100px;
+  padding-top: 50px;
+  border-bottom: 1px solid #4c4c4c;
+}
+.advantages-wrapper {
+  min-height: 78px;
+  margin-bottom: 30px;
+}
+.advantages-title {
+  font-size: 20px;
+  text-transform: uppercase;
+  font-family: "Gotham Pro Medium";
+  line-height: 1.4;
+  color: #292929;
+}
+.goods {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.section-description {
+  font-size: 18px;
+  text-align: center;
+}
+
+.card {
+  text-align: center;
+  border: #ffffff 3px solid;
+  padding: 33px 35px 30px 35px;
+  margin-top: 27px;
+}
+
+.card-title {
+  margin-top: 23px;
+  margin-bottom: 20px;
+  
+}
+.card-label {
+  font-size: 14px;
+  display: block;
+  margin-bottom: 7px;
+  margin-top: 20px;
+}
+.color-label {
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+}
+.color-input {
+  opacity: 0;
+  visibility: hidden;
+  position: absolute;
+  z-index: -9;
+}
+
+.color-label.white {
+  background-color: #fff;
+}
+.color-label.biege {
+  background-color: rgb(153, 125, 84);
+}
+.color-label.pink {
+  background-color: #ed366e;
+}
+.color-label.blue {
+  background-color: blue;
+}
+.color-label.red {
+  background-color: red;
+}
+
+.counter-input {
+  border: 2px solid #ffffff;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  color: #fff;
+  background-color: #292929;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.counter-button {
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+  font-size: 16px;
+  color: #fff;
+  background-color: #292929;
+  border: none;
+}
+
+.card-button {
+  font-style: 14px;
+  width: 100%;
+  padding-top: 16px;
+  padding-bottom: 13px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border: none;
+}
+.more {
+  font-size: 14px;
+  color: #f24841;
+  display: block;
+  text-align: center;
+  margin-top: 39px;
+  padding: 10px;
+}
+.more::after {
+  display: inline-block;
+  content: "";
+  width: 10px;
+  height: 4px;
+  background: url("../img/arrow/caret.svg") no-repeat center;
+  margin-left: 14px;
+  vertical-align: middle;
+}
+.offer {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  background-color: #1a1a1a;
+  text-align: center;
+}
+.offer-link {
+  text-transform: uppercase;
+  color: #fff;
+  display: block;
+  font-size: 30px;
+  margin-bottom: 65px;
+}
+.offer-label {
+  display: block;
+  margin-bottom: 22px;
+  font-size: 14px;
+}
+.offer-phone {
+  font-size: 36px;
+  text-decoration: none;
+  color: #fff;
+}
+.footer-menu {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.footer-menu-link {
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 18px;
+}
+.footer-menu-item {
+  margin-right: 30px;
+  margin-bottom: 33px;
+}
+.social {
+  font-size: 16px;
+}
+
+.footer-label {
+  display: block;
+  font-size: 16px;
+  margin-bottom: 12px;
+}
+.footer-info {
+  text-align: right;
+}
+.footer-phone {
+  text-decoration: none;
+  color: #fff;
+  font-size: 24px;
+  display: block;
+  margin-bottom: 12px;
+}
+.header2 {
+  padding-top: 25px;
+  background-color: #fff;
+  padding-bottom: 25px;
+}
+
+.header2-description {
+  font-family: "Gotham Pro Light";
+  letter-spacing: 0.12px;
+  font-size: 12px;
+  color: #292929;
+}
+.text-color-red2 {
+  color: #ff3469;
+  font-family: "Gotham Pro Medium";
+}
+.header2-phone {
+  color: #292929;
+  text-decoration: none;
+  font-size: 20px;
+  text-align: right;
+  font-weight: 500;
+  display: block;
+}
+.header2-info {
+  font-size: 12px;
+  font-weight: 400;
+  margin-top: 7px;
+  display: block;
+  text-align: center;
+  color: #292929;
+}
+
+.header-bg {
+  background: url(/img/base.jpg);
+  text-align: center;
+
+}  
+
+.callback2 {
+  color: #ff3469;
+  text-align: right;
+  display: block;
+  margin-top: 16px;
+  font-size: 16px;
+}
+
+.x {
+  margin-bottom: 150px;
+}
+
+/
+
+.photo {
+  padding: lem;
+  column-count: 4;
+  background-color:  #171818;
+
+}
+ .container-f {
+  width: 100%;
+  margin-bottom: lem;
+  text-align: center;
+  padding: 10px;
+  
+  background-color:  #2f4f4f80;
+
+ }
+.container-f img {
+  padding: 10px;
+   }
+ 
+/*для мобильных устройств*/
+@media screen  and (max-width: 480px)  {
+  .header-description {
+    font-family: "Gotham Pro Medium";
+    letter-spacing: 0.12px;
+    font-size: 28px;
+    color: #1a1a1a;
+    font-style: bold;
+    line-height: normal;
+    text-align: right;
+  }
+  .header {
+    text-align: center
+    ;
+  }.header-phone {
+    color: #1a1a1a;
+     text-decoration: none;
+     font-size: 20px;
+     text-align: center;
+     font-weight: 500;
+     display: block;
+          padding-top: 30px;
+  }
+  .header-info {
+    text-align: center;
+    font-size: 20px;
+    padding-top: 25px;
+    padding-bottom: 8px;
+  }
+  .swiper-container  { display: none;}
+  .hero-cta { 
+    line-height: 175%;
+  text-align: center;}
+
+  .advantages-title { display: none;}
+  .header-bg { display: none;}
+}
+
+@media screen and (max-width: 640px) {
+  .header-description {
+    font-family: "Gotham Pro Medium";
+    letter-spacing: 0.12px;
+    font-size: 28px;
+    color: #1a1a1a;
+    font-style: bold;
+    line-height: normal;
+    text-align: right;
+  }
+  .header {
+    text-align: center
+    ;
+  }.header-phone {
+    color: #1a1a1a;
+     text-decoration: none;
+     font-size: 20px;
+     text-align: center;
+     font-weight: 500;
+     display: block;
+          padding-top: 30px;
+  }
+  .header-info {
+    text-align: center;
+    font-size: 20px;
+    padding-top: 25px;
+    padding-bottom: 8px;
+  }
+  .swiper-container  { display: none;}
+  .hero-cta { 
+    line-height: 175%;
+  text-align: center;}
+
+  .advantages-title { display: none;}
+.header-bg { display: none;}
+}
+ 
+  
+  @media screen and (min-width:640px) and (max-width: 1024px) {
+   body {font-size: 85%;}
+
+   .header-description {font-size: 130%;
+  padding: 50px;}
+  .header-phone {font-size: 120%;
+    line-height: 180%;
+}
+.header-info {
+  font-size: 150%;
+}
+.hero-cta { 
+  line-height: 175%;
+text-align: center;
+font-size: 180%} }
+
+
+
