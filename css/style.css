@@ -48,30 +48,19 @@ body {
   
 }
 
-.header-description {
-  font-family: "Gotham Pro Medium";
-  letter-spacing: 0.12px;
-  font-size: 40px;
-  color: #1a1a1a;
-  font-style: bold;
-  line-height: normal;
-  text-align: center;
-  
 
-  
- 
-}
 .text-color-red {
   color: #ff3469;
   font-family: "Gotham Pro Medium";
 }
 .header-phone {
- color: #1a1a1a;
+ color: #0495f7;
   text-decoration: none;
   font-size: 20px;
   text-align: right;
   font-weight: 500;
   display: block;
+  font-family: "Gotham Pro Medium";
 }
 .header-info {
   font-size: 12px;
@@ -79,7 +68,7 @@ body {
   margin-top: 7px;
   display: block;
   text-align: right;
-  color: #1a1a1a;
+ 
   text-decoration: none;
 }
 
@@ -143,7 +132,7 @@ color: #069df5;
 .button {
   display: inline-block;
   font-size: 18px;
-  font-family: "Gotham Pro Light";
+  font-family: "Gotham Pro Medium";
   text-transform: uppercase;
   text-decoration: none;
   color: #fff;
@@ -162,11 +151,11 @@ color: #069df5;
 .button-1 {
   display: inline-block;
   font-size: 18px;
-  font-family: "Gotham Pro Light";
+  font-family: "Gotham Pro Medium";
   text-transform: uppercase;
   text-decoration: none;
   color: #fff;
-  background-color:#f75307;
+  background-color:#f70707;
   padding-top: 30px;
   padding-bottom: 26px;
   padding-left: 65px;
@@ -340,6 +329,7 @@ color: #069df5;
   color: #fff;
   background-color: #292929;
   border: none;
+  font-family: "Gotham Pro Medium"
 }
 
 .card-button {
@@ -350,6 +340,7 @@ color: #069df5;
   padding-left: 10px;
   padding-right: 10px;
   border: none;
+  font-family: "Gotham Pro Medium"
 }
 .more {
   font-size: 14px;
@@ -475,7 +466,7 @@ color: #069df5;
   margin-bottom: 150px;
 }
 
-/
+
 
 .photo {
   padding: lem;
@@ -511,7 +502,7 @@ color: #069df5;
     text-align: center
     ;
   }.header-phone {
-    color: #1a1a1a;
+    color: #0495f7;
      text-decoration: none;
      font-size: 20px;
      text-align: center;
@@ -548,7 +539,7 @@ color: #069df5;
     text-align: center
     ;
   }.header-phone {
-    color: #1a1a1a;
+    color: #0495f7;
      text-decoration: none;
      font-size: 20px;
      text-align: center;
